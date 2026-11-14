@@ -1,0 +1,274 @@
+2026-11-14 11:21:11,726 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:12,321 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:16,299 - INFO - Authentication (password) failed.
+2026-11-14 11:21:16,301 - ERROR - [-] Authentication failed for HCMC-HQ-RTR01 (10.255.10.1)
+2026-11-14 11:21:16,328 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:16,677 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:20,401 - INFO - Authentication (password) failed.
+2026-11-14 11:21:20,402 - ERROR - [-] Authentication failed for HCMC-CORE-SW01 (10.255.10.2)
+2026-11-14 11:21:20,438 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:20,796 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:24,587 - INFO - Authentication (password) failed.
+2026-11-14 11:21:24,589 - ERROR - [-] Authentication failed for HCMC-DIST-SW01 (10.255.10.3)
+2026-11-14 11:21:24,615 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:24,937 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:29,078 - INFO - Authentication (password) failed.
+2026-11-14 11:21:29,079 - ERROR - [-] Authentication failed for HCMC-DIST-SW02 (10.255.10.4)
+2026-11-14 11:21:29,128 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:29,842 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:33,856 - INFO - Authentication (password) failed.
+2026-11-14 11:21:33,857 - ERROR - [-] Authentication failed for HANOI-RND-RTR01 (10.255.20.1)
+2026-11-14 11:21:33,912 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:34,581 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:38,707 - INFO - Authentication (password) failed.
+2026-11-14 11:21:38,707 - ERROR - [-] Authentication failed for HANOI-RND-SW01 (10.255.20.2)
+2026-11-14 11:21:38,766 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:21:39,428 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:21:43,344 - INFO - Authentication (password) failed.
+2026-11-14 11:21:43,344 - ERROR - [-] Authentication failed for HANOI-RND-SW02 (10.255.20.3)
+2026-11-14 11:21:43,361 - ERROR - [-] Connection timed out for DANANG-LOG-RTR01 (10.255.30.1)
+2026-11-14 11:21:44,417 - ERROR - [-] Connection timed out for DANANG-LOG-SW01 (10.255.30.2)
+2026-11-14 11:23:48,479 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:23:49,079 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:23:53,060 - INFO - Authentication (password) failed.
+2026-11-14 11:23:53,061 - ERROR - [-] Authentication failed for HCMC-HQ-RTR01 (10.255.10.1)
+2026-11-14 11:23:53,087 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:23:53,640 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:23:57,610 - INFO - Authentication (password) failed.
+2026-11-14 11:23:57,610 - ERROR - [-] Authentication failed for HCMC-CORE-SW01 (10.255.10.2)
+2026-11-14 11:23:57,634 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:23:57,947 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:24:02,164 - INFO - Authentication (password) failed.
+2026-11-14 11:24:02,166 - ERROR - [-] Authentication failed for HCMC-DIST-SW01 (10.255.10.3)
+2026-11-14 11:24:02,196 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:24:02,518 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:24:06,540 - INFO - Authentication (password) failed.
+2026-11-14 11:24:06,541 - ERROR - [-] Authentication failed for HCMC-DIST-SW02 (10.255.10.4)
+2026-11-14 11:24:06,593 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:24:07,301 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:24:11,134 - INFO - Authentication (password) failed.
+2026-11-14 11:24:11,135 - ERROR - [-] Authentication failed for HANOI-RND-RTR01 (10.255.20.1)
+2026-11-14 11:24:11,183 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:24:11,845 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:24:16,051 - INFO - Authentication (password) failed.
+2026-11-14 11:24:16,053 - ERROR - [-] Authentication failed for HANOI-RND-SW01 (10.255.20.2)
+2026-11-14 11:24:16,113 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:24:16,763 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:24:20,723 - INFO - Authentication (password) failed.
+2026-11-14 11:24:20,735 - ERROR - [-] Authentication failed for HANOI-RND-SW02 (10.255.20.3)
+2026-11-14 11:24:20,745 - ERROR - [-] Connection timed out for DANANG-LOG-RTR01 (10.255.30.1)
+2026-11-14 11:24:21,806 - ERROR - [-] Connection timed out for DANANG-LOG-SW01 (10.255.30.2)
+2026-11-14 11:44:12,807 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:44:13,172 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:44:13,183 - INFO - Authentication (password) successful!
+2026-11-14 11:44:18,025 - INFO - Successfully provisioned HCMC-HQ-RTR01 (10.255.10.1):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-HQ-RTR01(config)#ntp server 10.10.99.10
+HCMC-HQ-RTR01(config)#logging host 10.10.99.10
+HCMC-HQ-RTR01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-HQ-RTR01(config)#end
+HCMC-HQ-RTR01#
+2026-11-14 11:44:22,964 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:44:23,514 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:44:23,523 - INFO - Authentication (password) successful!
+2026-11-14 11:44:28,979 - INFO - Successfully provisioned HCMC-CORE-SW01 (10.255.10.2):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-CORE-SW01(config)#ntp server 10.10.99.10
+HCMC-CORE-SW01(config)#logging host 10.10.99.10
+HCMC-CORE-SW01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-CORE-SW01(config)#vlan 10
+HCMC-CORE-SW01(config-vlan)#name EXEC_FINANCE
+HCMC-CORE-SW01(config-vlan)#vlan 20
+HCMC-CORE-SW01(config-vlan)#name RND_ENGINEERING
+HCMC-CORE-SW01(config-vlan)#vlan 40
+HCMC-CORE-SW01(config-vlan)#name GUEST
+HCMC-CORE-SW01(config-vlan)#vlan 99
+HCMC-CORE-SW01(config-vlan)#name MANAGEMENT
+HCMC-CORE-SW01(config-vlan)#end
+HCMC-CORE-SW01#
+2026-11-14 11:44:34,428 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:44:34,761 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:44:34,770 - INFO - Authentication (password) successful!
+2026-11-14 11:44:40,358 - INFO - Successfully provisioned HCMC-DIST-SW01 (10.255.10.3):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-DIST-SW01(config)#ntp server 10.10.99.10
+HCMC-DIST-SW01(config)#logging host 10.10.99.10
+HCMC-DIST-SW01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-DIST-SW01(config)#vlan 10
+HCMC-DIST-SW01(config-vlan)#name EXEC_FINANCE
+HCMC-DIST-SW01(config-vlan)#vlan 20
+HCMC-DIST-SW01(config-vlan)#name RND_ENGINEERING
+HCMC-DIST-SW01(config-vlan)#vlan 40
+HCMC-DIST-SW01(config-vlan)#name GUEST
+HCMC-DIST-SW01(config-vlan)#vlan 99
+HCMC-DIST-SW01(config-vlan)#name MANAGEMENT
+HCMC-DIST-SW01(config-vlan)#end
+HCMC-DIST-SW01#
+2026-11-14 11:44:45,549 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:44:45,889 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:44:45,897 - INFO - Authentication (password) successful!
+2026-11-14 11:44:51,872 - INFO - Successfully provisioned HCMC-DIST-SW02 (10.255.10.4):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-DIST-SW02(config)#ntp server 10.10.99.10
+HCMC-DIST-SW02(config)#logging host 10.10.99.10
+HCMC-DIST-SW02(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-DIST-SW02(config)#vlan 10
+HCMC-DIST-SW02(config-vlan)#name EXEC_FINANCE
+HCMC-DIST-SW02(config-vlan)#vlan 20
+HCMC-DIST-SW02(config-vlan)#name RND_ENGINEERING
+HCMC-DIST-SW02(config-vlan)#vlan 40
+HCMC-DIST-SW02(config-vlan)#name GUEST
+HCMC-DIST-SW02(config-vlan)#vlan 99
+HCMC-DIST-SW02(config-vlan)#name MANAGEMENT
+HCMC-DIST-SW02(config-vlan)#end
+HCMC-DIST-SW02#
+2026-11-14 11:44:57,343 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:44:58,092 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:44:58,119 - INFO - Authentication (password) successful!
+2026-11-14 11:45:04,029 - INFO - Successfully provisioned HANOI-RND-RTR01 (10.255.20.1):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HANOI-RND-RTR01(config)#ntp server 10.10.99.10
+HANOI-RND-RTR01(config)#logging host 10.10.99.10
+HANOI-RND-RTR01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HANOI-RND-RTR01(config)#end
+HANOI-RND-RTR01#
+2026-11-14 11:45:09,511 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:45:09,935 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:45:09,948 - INFO - Authentication (password) successful!
+2026-11-14 11:45:17,352 - INFO - Successfully provisioned HANOI-RND-SW01 (10.255.20.2):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HANOI-RND-SW01(config)#ntp server 10.10.99.10
+HANOI-RND-SW01(config)#logging host 10.10.99.10
+HANOI-RND-SW01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HANOI-RND-SW01(config)#vlan 20
+HANOI-RND-SW01(config-vlan)#name RND_ENGINEERING
+HANOI-RND-SW01(config-vlan)#vlan 40
+HANOI-RND-SW01(config-vlan)#name GUEST
+HANOI-RND-SW01(config-vlan)#vlan 99
+HANOI-RND-SW01(config-vlan)#name MANAGEMENT
+HANOI-RND-SW01(config-vlan)#end
+HANOI-RND-SW01#
+2026-11-14 11:45:22,511 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:45:23,198 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:45:23,216 - INFO - Authentication (password) successful!
+2026-11-14 11:45:28,624 - INFO - Successfully provisioned HANOI-RND-SW02 (10.255.20.3):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HANOI-RND-SW02(config)#ntp server 10.10.99.10
+HANOI-RND-SW02(config)#logging host 10.10.99.10
+HANOI-RND-SW02(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HANOI-RND-SW02(config)#vlan 20
+HANOI-RND-SW02(config-vlan)#name RND_ENGINEERING
+HANOI-RND-SW02(config-vlan)#vlan 40
+HANOI-RND-SW02(config-vlan)#name GUEST
+HANOI-RND-SW02(config-vlan)#vlan 99
+HANOI-RND-SW02(config-vlan)#name MANAGEMENT
+HANOI-RND-SW02(config-vlan)#end
+HANOI-RND-SW02#
+2026-11-14 11:45:33,873 - ERROR - [-] Connection timed out for DANANG-LOG-RTR01 (10.255.30.1)
+2026-11-14 11:45:34,954 - ERROR - [-] Connection timed out for DANANG-LOG-SW01 (10.255.30.2)
+2026-11-14 11:51:12,298 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:51:12,921 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:51:12,934 - INFO - Authentication (password) successful!
+2026-11-14 11:51:18,046 - INFO - Successfully provisioned HCMC-HQ-RTR01 (10.255.10.1):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-HQ-RTR01(config)#ntp server 10.10.99.10
+HCMC-HQ-RTR01(config)#logging host 10.10.99.10
+HCMC-HQ-RTR01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-HQ-RTR01(config)#end
+HCMC-HQ-RTR01#
+2026-11-14 11:51:23,159 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:51:23,510 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:51:23,520 - INFO - Authentication (password) successful!
+2026-11-14 11:51:29,018 - INFO - Successfully provisioned HCMC-CORE-SW01 (10.255.10.2):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-CORE-SW01(config)#ntp server 10.10.99.10
+HCMC-CORE-SW01(config)#logging host 10.10.99.10
+HCMC-CORE-SW01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-CORE-SW01(config)#vlan 10
+HCMC-CORE-SW01(config-vlan)#name EXEC_FINANCE
+HCMC-CORE-SW01(config-vlan)#vlan 20
+HCMC-CORE-SW01(config-vlan)#name RND_ENGINEERING
+HCMC-CORE-SW01(config-vlan)#vlan 40
+HCMC-CORE-SW01(config-vlan)#name GUEST
+HCMC-CORE-SW01(config-vlan)#vlan 99
+HCMC-CORE-SW01(config-vlan)#name MANAGEMENT
+HCMC-CORE-SW01(config-vlan)#end
+HCMC-CORE-SW01#
+2026-11-14 11:51:33,930 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:51:34,252 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:51:34,264 - INFO - Authentication (password) successful!
+2026-11-14 11:51:39,912 - INFO - Successfully provisioned HCMC-DIST-SW01 (10.255.10.3):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-DIST-SW01(config)#ntp server 10.10.99.10
+HCMC-DIST-SW01(config)#logging host 10.10.99.10
+HCMC-DIST-SW01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-DIST-SW01(config)#vlan 10
+HCMC-DIST-SW01(config-vlan)#name EXEC_FINANCE
+HCMC-DIST-SW01(config-vlan)#vlan 20
+HCMC-DIST-SW01(config-vlan)#name RND_ENGINEERING
+HCMC-DIST-SW01(config-vlan)#vlan 40
+HCMC-DIST-SW01(config-vlan)#name GUEST
+HCMC-DIST-SW01(config-vlan)#vlan 99
+HCMC-DIST-SW01(config-vlan)#name MANAGEMENT
+HCMC-DIST-SW01(config-vlan)#end
+HCMC-DIST-SW01#
+2026-11-14 11:51:45,102 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:51:45,439 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:51:45,448 - INFO - Authentication (password) successful!
+2026-11-14 11:51:51,134 - INFO - Successfully provisioned HCMC-DIST-SW02 (10.255.10.4):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+HCMC-DIST-SW02(config)#ntp server 10.10.99.10
+HCMC-DIST-SW02(config)#logging host 10.10.99.10
+HCMC-DIST-SW02(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+HCMC-DIST-SW02(config)#vlan 10
+HCMC-DIST-SW02(config-vlan)#name EXEC_FINANCE
+HCMC-DIST-SW02(config-vlan)#vlan 20
+HCMC-DIST-SW02(config-vlan)#name RND_ENGINEERING
+HCMC-DIST-SW02(config-vlan)#vlan 40
+HCMC-DIST-SW02(config-vlan)#name GUEST
+HCMC-DIST-SW02(config-vlan)#vlan 99
+HCMC-DIST-SW02(config-vlan)#name MANAGEMENT
+HCMC-DIST-SW02(config-vlan)#end
+HCMC-DIST-SW02#
+2026-11-14 11:51:56,169 - ERROR - [-] Connection timed out for HANOI-RND-RTR01 (10.255.20.1)
+2026-11-14 11:51:57,228 - ERROR - [-] Connection timed out for HANOI-RND-SW01 (10.255.20.2)
+2026-11-14 11:51:59,276 - ERROR - [-] Connection timed out for HANOI-RND-SW02 (10.255.20.3)
+2026-11-14 11:51:59,320 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:52:00,014 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:52:00,038 - INFO - Authentication (password) successful!
+2026-11-14 11:52:05,090 - INFO - Successfully provisioned DANANG-LOG-RTR01 (10.255.30.1):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+DANANG-LOG-RTR01(config)#ntp server 10.10.99.10
+DANANG-LOG-RTR01(config)#logging host 10.10.99.10
+DANANG-LOG-RTR01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+DANANG-LOG-RTR01(config)#end
+DANANG-LOG-RTR01#
+2026-11-14 11:52:09,896 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-11-14 11:52:10,534 - INFO - Auth banner: b"\r\n**************************************************************************\r\n* IOSv is strictly limited to use for evaluation, demonstration and IOS  *\r\n* education. IOSv is provided as-is and is not supported by Cisco's      *\r\n* Technical Advisory Center. Any use or disclosure, in whole or in part, *\r\n* of the IOSv Software or Documentation to any third party for any       *\r\n* purposes is expressly prohibited except as otherwise authorized by     *\r\n* Cisco in writing.                                                      *\r\n**************************************************************************"
+2026-11-14 11:52:10,553 - INFO - Authentication (password) successful!
+2026-11-14 11:52:16,409 - INFO - Successfully provisioned DANANG-LOG-SW01 (10.255.30.2):
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+DANANG-LOG-SW01(config)#ntp server 10.10.99.10
+DANANG-LOG-SW01(config)#logging host 10.10.99.10
+DANANG-LOG-SW01(config)#banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #
+DANANG-LOG-SW01(config)#vlan 30
+DANANG-LOG-SW01(config-vlan)#name LOGISTICS_OPS
+DANANG-LOG-SW01(config-vlan)#vlan 60
+DANANG-LOG-SW01(config-vlan)#name IOT
+DANANG-LOG-SW01(config-vlan)#vlan 99
+DANANG-LOG-SW01(config-vlan)#name MANAGEMENT
+DANANG-LOG-SW01(config-vlan)#end
+DANANG-LOG-SW01#
