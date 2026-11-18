@@ -28,6 +28,13 @@ devices:
     site: HCMC
     role: switch
 
+  - hostname: HCMC-ACC-01
+    host: 10.255.10.5
+    device_type: cisco_ios
+    port: 22
+    site: HCMC
+    role: switch
+
   # --- HANOI R&D BRANCH ---
   - hostname: HANOI-RND-RTR01
     host: 10.255.20.1
@@ -45,6 +52,13 @@ devices:
 
   - hostname: HANOI-RND-SW02
     host: 10.255.20.3
+    device_type: cisco_ios
+    port: 22
+    site: HANOI
+    role: switch
+
+  - hostname: HANOI-ACC-01
+    host: 10.255.20.4
     device_type: cisco_ios
     port: 22
     site: HANOI
