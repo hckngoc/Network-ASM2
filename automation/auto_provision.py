@@ -18,10 +18,12 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
+BANNER_TEXT = "Unauthorized access to TVI Corporate Infrastructure is prohibited."
+
 BASELINE_COMMANDS = [
     "ntp server 10.10.99.10",
     "logging host 10.10.99.10",
-    "banner motd # Unauthorized access to TVI Corporate Infrastructure is prohibited. #",
+    f"banner motd ^C {BANNER_TEXT} ^C",
 ]
 
 SITE_VLANS = {
@@ -49,11 +51,29 @@ def load_inventory(filepath="inventory.yaml"):
         return yaml.safe_load(f)["devices"]
 
 
-def build_device_commands(site, role):
-    commands = list(BASELINE_COMMANDS)
+def vlan_exists(vlan_id, vlan_name, running_cfg, vlan_brief):
+    for line in vlan_brief.splitlines():
+        parts = line.split()
+        if len(parts) >= 2 and parts[0] == vlan_id and parts[1] == vlan_name:
+            return True
+    block = f"vlan {vlan_id}\n name {vlan_name}"
+    return block in running_cfg
+
+
+def build_pending_commands(site, role, running_cfg, vlan_brief=""):
+    commands = []
+    for cmd in BASELINE_COMMANDS:
+        if cmd.startswith("banner motd"):
+            if BANNER_TEXT not in running_cfg:
+                commands.append(cmd)
+        elif cmd not in running_cfg:
+            commands.append(cmd)
+
     if role == "switch":
         for vlan_id, vlan_name in SITE_VLANS.get(site, []):
-            commands.extend([f"vlan {vlan_id}", f"name {vlan_name}"])
+            if not vlan_exists(vlan_id, vlan_name, running_cfg, vlan_brief):
+                commands.extend([f"vlan {vlan_id}", f"name {vlan_name}"])
+
     return commands
 
 
@@ -71,12 +91,14 @@ def capture_device_state(ssh, hostname, phase):
         f.write("! --- SHOW RUNNING-CONFIG ---\n")
         f.write(running_cfg + "\n")
 
-    return backup_path
+    return backup_path, running_cfg
 
 
 def run_automation():
     username = input("Enter SSH Username: ")
     password = getpass("Enter SSH Password: ")
+
+    summary = {"updated": 0, "skipped": 0, "failed": 0}
 
     for dev in load_inventory():
         hostname = dev["hostname"]
@@ -101,34 +123,51 @@ def run_automation():
                 if not ssh.check_enable_mode():
                     ssh.enable()
 
-                pre_file = capture_device_state(ssh, hostname, "pre")
+                pre_file, running_cfg = capture_device_state(ssh, hostname, "pre")
                 print(f"  [+] Pre-change backup saved: {pre_file}")
 
-                cmd_list = build_device_commands(site, role)
+                vlan_brief = ssh.send_command("show vlan brief") if role == "switch" else ""
+                cmd_list = build_pending_commands(site, role, running_cfg, vlan_brief)
+
+                if not cmd_list:
+                    print("  [=] Idempotent check: Already compliant. Skipping configuration push.")
+                    logging.info(f"Skipped {hostname} ({host_ip}): configuration already compliant.")
+                    summary["skipped"] += 1
+                    continue
+
                 output = ssh.send_config_set(cmd_list)
-                print("  [+] Pushed baseline & VLAN configurations.")
+                print(f"  [+] Pushed {len(cmd_list)} commands: {cmd_list}")
                 logging.info(f"Successfully provisioned {hostname} ({host_ip}):\n{output}")
 
-                post_file = capture_device_state(ssh, hostname, "post")
+                post_file, _ = capture_device_state(ssh, hostname, "post")
                 print(f"  [+] Post-change backup saved: {post_file}")
 
                 ssh.save_config()
                 print("  [+] Saved running-config to startup-config.")
+                summary["updated"] += 1
 
         except NetmikoTimeoutException:
             msg = f"[-] Connection timed out for {hostname} ({host_ip})"
             print(msg)
             logging.error(msg)
+            summary["failed"] += 1
 
         except NetmikoAuthenticationException:
             msg = f"[-] Authentication failed for {hostname} ({host_ip})"
             print(msg)
             logging.error(msg)
+            summary["failed"] += 1
 
         except Exception as e:
             msg = f"[-] Unexpected error on {hostname} ({host_ip}): {str(e)}"
             print(msg)
             logging.error(msg)
+            summary["failed"] += 1
+
+    print(
+        f"\n=== SUMMARY: Updated={summary['updated']} | "
+        f"Skipped(Idempotent)={summary['skipped']} | Failed={summary['failed']} ==="
+    )
 
 
 if __name__ == "__main__":
